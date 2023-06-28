@@ -7,7 +7,7 @@ export default JobSearchContext;
 
 // Create context provider
 export const JobSearchProvider = ({ children }) => {
-  const [query, setQuery] = useState("software developer");
+  const [query, setQuery] = useState("flutter developer");
 
   const contextData = {
     query: query,
